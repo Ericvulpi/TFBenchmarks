@@ -10,7 +10,8 @@ the following characteristics :
 
 - Parameters (all with default value provided) :
   - Hardware : CPU / GPU
-  - Convergence criteria : max iterations / max time / target precision, failsafe in case of divergence, detection of stagnation tbd
+  - End of calculation criteria : max iterations / max time / target precision,
+  failsafe in case of divergence, detection of stagnation tbd
   - Hyperparameters : batch size, dropout, learning rate, other tbd
   - Optimizer : Gradient Descent / Adadelta / Adagrad / Momentum / Adam / FTRL /
   Proximal Gradient / Proximal Adagrad / RMSProp
