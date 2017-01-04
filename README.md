@@ -10,7 +10,7 @@ the following characteristics :
 
 - Parameters (all with default value provided) :
   - Hardware : CPU / GPU
-  - Convergence criteria : max iterations / max time / target precision, with a failsafe
+  - Convergence criteria : max iterations / max time / target precision, failsafe in case of divergence, detection of stagnation tbd
   - Hyperparameters : batch size, dropout, learning rate, other tbd
   - Optimizer : Gradient Descent / Adadelta / Adagrad / Momentum / Adam / FTRL /
   Proximal Gradient / Proximal Adagrad / RMSProp
@@ -45,6 +45,7 @@ link :
 **[AlexNet (One Weird Trick paper)](https://code.google.com/p/cuda-convnet2/source/browse/layers/layers-imagenet-1gpu.cfg)** - Input 128x3x224x224
 
 table :
-| Library         | Class                                                                                                                | Time (ms)  | forward (ms) | backward (ms) |
-| --:| --:| --:| --:| --:|
+
+| Library | Class | Time (ms) | forward (ms) | backward (ms) |
+|:---:|:---:|:---:|:---:|:---:|
 | 1  | 2  | 3 | 4 | 5 |
